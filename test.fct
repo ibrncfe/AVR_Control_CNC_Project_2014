@@ -1,0 +1,2 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"testCDstepper.c" LINE:69
+move_ccw_motY DSTACK_USAGE:4 DSTACK_LEVEL:4 FILE:"testCDstepper.c" LINE:40

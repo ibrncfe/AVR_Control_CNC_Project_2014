@@ -1,0 +1,28 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer                                                         0x0160       8
+tx_buffer                                                         0x0168       8
+control_array_half_MotZ                                           0x0170      16
+control_array_half_MotY                                           0x0180       8
+control_array_half_MotX                                           0x0188       8
+DataStep                                                          0x0190       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+rx_wr_index                                                       R5           1
+rx_rd_index                                                       R4           1
+rx_counter                                                        R7           1
+rx_buffer_overflow                                                R2.0      1bit
+tx_wr_index                                                       R6           1
+tx_rd_index                                                       R9           1
+tx_counter                                                        R8           1
+data                                                              R11          1
+DataX                                                             R10          1
+DataY                                                             R13          1
+DataZ                                                             R12          1
